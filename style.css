@@ -1,0 +1,36 @@
+
+/* Section */
+.Stuff {
+    background-color: #dbeafe;
+    padding: 30px;
+    margin: 20px 0;
+    border: 2px solid #2563eb;
+    border-radius: 10px;
+}
+
+/* Container holding the boxes */
+.Stuff__container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual div boxes */
+.Stuff__item {
+    background-color: #f3f4f6;
+    padding: 20px;
+    border: 2px solid #16a34a;
+    border-radius: 8px;
+    flex: 1 1 180px;
+}
+
+/* Headings inside each box */
+.Stuff__item#2 h2 {
+    color: #16a34a;
+    margin-top: 0;
+}
+
+/* Paragraphs inside each box */
+.Stuff__item#3 p {
+    color: #374151;
+}

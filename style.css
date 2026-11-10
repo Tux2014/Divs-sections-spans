@@ -1,6 +1,6 @@
 
 /* Section */
-.Stuff {
+.Items-section{
     background-color: #dbeafe;
     padding: 30px;
     margin: 20px 0;
@@ -9,14 +9,14 @@
 }
 
 /* Container holding the boxes */
-.Stuff__container {
+.Item-Container {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
 
 /* Individual div boxes */
-.Stuff__item {
+.Item-box {
     background-color: #f3f4f6;
     padding: 20px;
     border: 2px solid #16a34a;
@@ -25,12 +25,12 @@
 }
 
 /* Headings inside each box */
-.Stuff__item#2 h2 {
+.Item-box h3 {
     color: #16a34a;
     margin-top: 0;
 }
 
 /* Paragraphs inside each box */
-.Stuff__item#3 p {
+.Item-box p {
     color: #374151;
 }
